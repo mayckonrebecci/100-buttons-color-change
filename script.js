@@ -10,7 +10,7 @@ const randomColor = () => {
 };
 
 //-----------------------------------------------------
-//* This is the 1st Way
+//* This is the 1st Way.
 //-----------------------------------------------------
 const createBtn = () => {
     let newBtn = document.createElement("button");
@@ -29,7 +29,7 @@ for (let i = 0; i <= 99; i++) {
 
 
 //-----------------------------------------------------
-//* This is the 2nd Way
+//* This is the 2nd Way.
 //-----------------------------------------------------
 // for (let i = 0; i <= 99; i++) {
 //     createBtn();
