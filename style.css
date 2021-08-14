@@ -1,0 +1,51 @@
+:root {
+	--myWhite: #f3f3f3;
+	--myBlack: #131313;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+	border: none;
+}
+
+body {
+    background: var(--myBlack);
+    font-family: Open Sans;
+}
+
+#headline {
+    margin: 2.5rem;
+}
+
+h1 {
+    color: var(--myWhite);
+    text-align: center;
+}
+
+h3 {
+    color: var(--myWhite);
+    text-align: center;
+    font-weight: normal;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    text-align: center;
+}
+
+#btn {
+    font-weight: 600;
+    margin: .625rem;
+    padding: 1.25rem;
+    border-radius: .625rem;
+    transition: 700ms;
+    cursor: pointer;
+}
+
+#btn:hover {
+    padding: 1.5rem;
+}
